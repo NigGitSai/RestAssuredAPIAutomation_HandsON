@@ -1,0 +1,69 @@
+{
+  "store": {
+    "book": [
+      {
+        "category": "fiction",
+        "author": "J.K. Rowling",
+        "title": "Harry Potter",
+        "price": 29.99,
+        "ratings": {
+          "critics": 4.9,
+          "users": 4.8
+        },
+        "available": true
+      },
+      {
+        "category": "science fiction",
+        "author": "Isaac Asimov",
+        "title": "Foundation",
+        "price": 25.50,
+        "ratings": {
+          "critics": 4.7,
+          "users": 4.5
+        },
+        "available": false
+      }
+    ],
+    "magazine": [
+      {
+        "title": "National Geographic",
+        "issue": "July 2023",
+        "price": 5.99,
+        "articles": [
+          {
+            "title": "Exploring the Deep Sea",
+            "pages": 12
+          },
+          {
+            "title": "The Amazon Rainforest",
+            "pages": 9
+          }
+        ]
+      },
+      {
+        "title": "Time",
+        "issue": "August 2023",
+        "price": 4.99,
+        "articles": [
+          {
+            "title": "Future of AI",
+            "pages": 10
+          },
+          {
+            "title": "Politics of Climate Change",
+            "pages": 8
+          }
+        ]
+      }
+    ]
+  },
+  "storeOwner": {
+    "name": "John Doe",
+    "contact": {
+      "email": "johndoe@example.com",
+      "phone": "123-456-7890"
+    }
+  },
+  "open": true
+}
+

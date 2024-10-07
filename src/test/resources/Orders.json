@@ -1,0 +1,78 @@
+{
+  "orders": [
+    {
+      "orderId": "1001",
+      "date": "2024-09-28",
+      "customer": {
+        "customerId": "C001",
+        "name": "Alice Johnson",
+        "email": "alice@example.com"
+      },
+      "items": [
+        {
+          "productId": "P1001",
+          "name": "Smartphone",
+          "category": "Electronics",
+          "price": 499.99,
+          "quantity": 1
+        },
+        {
+          "productId": "P1002",
+          "name": "Laptop",
+          "category": "Electronics",
+          "price": 899.99,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 1399.98,
+      "status": "Shipped"
+    },
+    {
+      "orderId": "1002",
+      "date": "2024-09-29",
+      "customer": {
+        "customerId": "C002",
+        "name": "Bob Smith",
+        "email": "bob@example.com"
+      },
+      "items": [
+        {
+          "productId": "P2001",
+          "name": "Book",
+          "category": "Books",
+          "price": 19.99,
+          "quantity": 3
+        }
+      ],
+      "totalAmount": 59.97,
+      "status": "Processing"
+    },
+    {
+      "orderId": "1003",
+      "date": "2024-09-30",
+      "customer": {
+        "customerId": "C003",
+        "name": "Charlie Davis",
+        "email": "charlie@example.com"
+      },
+      "items": [
+        {
+          "productId": "P3001",
+          "name": "Gaming Console",
+          "category": "Electronics",
+          "price": 299.99,
+          "quantity": 1
+        },
+        {
+          "productId": "P1002",
+          "name": "Laptop",
+          "category": "Electronics",
+          "price": 899.99,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 1199.98,
+      "status": "Delivered"
+    }
+  ]
+}

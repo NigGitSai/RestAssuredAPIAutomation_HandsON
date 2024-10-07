@@ -1,4 +1,4 @@
-package RestAssured;
+package JSONSchemaValidation;
 
 import java.io.File;
 import java.io.IOException;

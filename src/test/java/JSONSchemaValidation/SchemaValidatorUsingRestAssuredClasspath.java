@@ -1,4 +1,4 @@
-package RestAssured;
+package JSONSchemaValidation;
 
 import static io.restassured.RestAssured.given;
 

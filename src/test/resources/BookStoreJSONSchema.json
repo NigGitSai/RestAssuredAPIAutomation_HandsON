@@ -1,0 +1,256 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "store": {
+      "type": "object",
+      "properties": {
+        "book": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "category": {
+                  "type": "string"
+                },
+                "author": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "price": {
+                  "type": "number"
+                },
+                "ratings": {
+                  "type": "object",
+                  "properties": {
+                    "critics": {
+                      "type": "number"
+                    },
+                    "users": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "critics",
+                    "users"
+                  ]
+                },
+                "available": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "category",
+                "author",
+                "title",
+                "price",
+                "ratings",
+                "available"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "category": {
+                  "type": "string"
+                },
+                "author": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "price": {
+                  "type": "number"
+                },
+                "ratings": {
+                  "type": "object",
+                  "properties": {
+                    "critics": {
+                      "type": "number"
+                    },
+                    "users": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "critics",
+                    "users"
+                  ]
+                },
+                "available": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "category",
+                "author",
+                "title",
+                "price",
+                "ratings",
+                "available"
+              ]
+            }
+          ]
+        },
+        "magazine": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "issue": {
+                  "type": "string"
+                },
+                "price": {
+                  "type": "number"
+                },
+                "articles": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "pages": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "title",
+                        "pages"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "pages": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "title",
+                        "pages"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "title",
+                "issue",
+                "price",
+                "articles"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "issue": {
+                  "type": "string"
+                },
+                "price": {
+                  "type": "number"
+                },
+                "articles": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "pages": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "title",
+                        "pages"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "pages": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "title",
+                        "pages"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "title",
+                "issue",
+                "price",
+                "articles"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "book",
+        "magazine"
+      ]
+    },
+    "storeOwner": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "contact": {
+          "type": "object",
+          "properties": {
+            "email": {
+              "type": "string"
+            },
+            "phone": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "email",
+            "phone"
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "contact"
+      ]
+    },
+    "open": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "store",
+    "storeOwner",
+    "open"
+  ]
+}
