@@ -7,6 +7,9 @@ import org.testng.annotations.Test;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import io.restassured.RestAssured;
+
+import static io.restassured.RestAssured.*;		
 public class usingJacksonAnyGetterAnnotation {
 	
 	@Test
@@ -38,6 +41,20 @@ public class usingJacksonAnyGetterAnnotation {
 		
 		System.out.println("Input JSON request ");
 		System.out.println(ipJson);
+		
+		RestAssured.baseURI= "https://restful-booker.herokuapp.com/booking";
+		
+		given()
+		.header("Content-Type","application/json")
+		.body(ipJson)
+		.when()
+		.post()
+		.then()
+		.log()
+		.all()
+		.assertThat()
+		.statusCode(200);
+		
 	}
 
 }
