@@ -1,0 +1,15 @@
+{
+  "customer_identifiers" : [ {
+    "id" : "100",
+    "type" : "Primary"
+  } ],
+  "addressTypeCode" : "P",
+  "addressTypeDesc" : "This is primary address",
+  "address" : {
+    "line1" : "11 cross street",
+    "city" : "Sea grit",
+    "state" : "New Jersey",
+    "zip" : "08004"
+  },
+  "user_type" : "Global"
+}

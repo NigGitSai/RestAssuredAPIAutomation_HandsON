@@ -1,0 +1,34 @@
+{
+  "bookings": [
+    {
+      "id": 101,
+      "customer": {
+        "name": "John Doe",
+        "email": "john.doe@example.com"
+      },
+      "room": {
+        "number": 205,
+        "type": "Deluxe"
+      },
+      "checkInDate": "2025-03-10",
+      "checkOutDate": "2025-03-15",
+      "status": "Confirmed",
+      "price": 250.00
+    },
+    {
+      "id": 102,
+      "customer": {
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com"
+      },
+      "room": {
+        "number": 307,
+        "type": "Suite"
+      },
+      "checkInDate": "2025-04-01",
+      "checkOutDate": "2025-04-05",
+      "status": "Pending",
+      "price": 450.50
+    }
+  ]
+}

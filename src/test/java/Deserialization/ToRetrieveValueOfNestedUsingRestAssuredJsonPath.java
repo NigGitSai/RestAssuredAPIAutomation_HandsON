@@ -44,6 +44,7 @@ String accessToken;
 				
 				
 				accessToken = js.getString("access_token");
+				
 	}
 	@Test(priority=0)
 	public void withoutObjectMapper()

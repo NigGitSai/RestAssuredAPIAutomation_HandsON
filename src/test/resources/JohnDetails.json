@@ -1,0 +1,19 @@
+{
+  "id": 101,
+  "name": "John Doe",
+  "address": {
+    "street": "123 Main St",
+    "city": "Metropolis",
+    "zip": "12345"
+  },
+  "projects": [
+    {
+      "projectId": 1,
+      "projectName": "Alpha"
+    },
+    {
+      "projectId": 2,
+      "projectName": "Beta"
+    }
+  ]
+}

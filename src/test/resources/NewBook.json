@@ -1,0 +1,44 @@
+{
+  "bookstore": {
+    "books": [
+      {
+        "id": 1,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "genre": "Fiction",
+        "price": 10.99,
+        "publishedYear": 1951
+      },
+      {
+        "id": 2,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": "Fiction",
+        "price": 7.99,
+        "publishedYear": 1960
+      },
+      {
+        "id": 3,
+        "title": "1984",
+        "author": "George Orwell",
+        "genre": "Dystopian",
+        "price": 8.99,
+        "publishedYear": 1949
+      },
+      {
+        "id": 4,
+        "title": "Sapiens",
+        "author": "Yuval Noah Harari",
+        "genre": "Non-Fiction",
+        "price": 14.99,
+        "publishedYear": 2011
+      }
+    ],
+    "storeName": "The Grand Bookstore",
+    "location": "Downtown City",
+    "contact": {
+      "email": "info@grandbookstore.com",
+      "phone": "123-456-7890"
+    }
+  }
+}

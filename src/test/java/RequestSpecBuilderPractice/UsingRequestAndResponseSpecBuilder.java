@@ -22,6 +22,7 @@ public class UsingRequestAndResponseSpecBuilder {
 		RequestSpecBuilder spec =  new RequestSpecBuilder();
 		RequestSpecification  requestSpecification  = spec.setBaseUri("https://rahulshettyacademy.com/maps/").addQueryParam("key", "qaclick123").setContentType(ContentType.JSON).build();
 	
+		
 		System.out.println("Request Specification "+requestSpecification);
 		ResponseSpecBuilder  responseSpec = new ResponseSpecBuilder();
 		ResponseSpecification respSpec = responseSpec.expectStatusCode(200).expectContentType(ContentType.JSON).build();

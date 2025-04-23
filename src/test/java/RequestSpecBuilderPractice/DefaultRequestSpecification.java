@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 
 public class DefaultRequestSpecification {
@@ -15,6 +16,7 @@ public class DefaultRequestSpecification {
 	public void setUpRequestSpecification()
 	{
 		rs = given().baseUri("https://petstore.swagger.io/v2/").header("Content-Type", "application/json");
+		
 		RestAssured.requestSpecification = rs;
 	}
 	

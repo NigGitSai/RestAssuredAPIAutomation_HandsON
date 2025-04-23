@@ -14,7 +14,7 @@ public class OAuth2 {
 		String token = "";
 		
 		RequestSpecification spec = given().auth().oauth2(token).baseUri("https://api.github.com/");
-		
+
 		given()
 		.spec(spec)
 		.log()

@@ -1,0 +1,28 @@
+{
+  "id": 102,
+  "name": "Jane Smith",
+  "address": {
+    "street": "456 Oak Ave",
+    "city": "Gotham",
+    "zip": "67890"
+  },
+  "projects": [
+    {
+      "projectId": 3,
+      "projectName": "Gamma",
+      "status": "ongoing"
+    },
+    {
+      "projectId": 4,
+      "projectName": "Delta",
+      "status": "completed"
+    }
+  ],
+  "contact": {
+    "email": "jane.smith@example.com",
+    "phone": {
+      "home": "555-1234",
+      "mobile": "555-5678"
+    }
+  }
+}
